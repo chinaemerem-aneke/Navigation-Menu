@@ -143,7 +143,7 @@ header {
 .nav__link {
     color: #fff;
     font-weight: 500;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -216,6 +216,8 @@ header {
     padding-bottom: 0;
   }
 
+  
+
   .nav-toggle {
     display: none;
   }
@@ -223,7 +225,8 @@ header {
   .nav {
     visibility: visible;
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    justify-content: flex-end;
   }
 
   .nav__list {
@@ -234,10 +237,14 @@ header {
     margin-top: 0;
     /* margin-left: 2rem; */
   }
+  
+  .nav__item {
+    margin-left: 1.2em;
+  }
 
   .nav__item + .nav__item {
     margin-top: 0;
-    margin-left: 1em;
+    /* margin-left: 1em; */
   }
 
   .row {
