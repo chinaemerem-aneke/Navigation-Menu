@@ -169,6 +169,7 @@ header {
 
 .logo {
   height: 30px;
+  padding-bottom: 1em;
 }
 
 .hero {
@@ -209,6 +210,10 @@ header {
   .btn {
     font-size: 1.2rem;
     padding: 0.75em 2em;
+  }
+
+  .logo {
+    padding-bottom: 0;
   }
 
   .nav-toggle {
